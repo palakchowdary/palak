@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container{
+            height: 80vh;
+            background-color: blanchedalmond ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box{
+            display: flex;
+            justify-content: center;
+            background-color: brown;
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            color: white;
+            font-size: medium;
+            transition: all 0.5 ease-in-out;
+        }
+
+        .box:hover{
+            /*transform:rotate(80deg) ;*/
+            /*transform: skew(45deg); */
+           /* transform: scale(4);*/
+          /* transform: translateY(123px)*/
+            transform: translateZ(200px)
+
+        
+        }
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid black ;
+            margin: 0 auto;
+        }
+        #myDiv{
+            
+        /*transform: rotateX(150deg);*/
+        transform:scaleX(2)
+        }
+
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: brown;
+            transition: width 2s, height 4s;
+            
+        }
+
+        div:hover{
+            width: 300px;
+            height: 300px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">BOX</div>
+    </div>
+    <div> Arena Animation </div>
+    <div id="myDiv"> Arena Animation </div>
+    <h1>The transition Property</h1>
+    <div></div>
+</body>
+</html>
