@@ -1,0 +1,114 @@
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 20%;
+    animation-name: myanimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    
+
+
+}
+
+/*@keyframes myanimation{
+    from{
+
+        background-color: plum;
+        top: 0px;
+        left: 0px;
+    }
+
+    to{
+        background-color: aqua;
+        top: 0px;
+        left: 0px;
+
+    }
+}*/
+
+/*@keyframes myanimation{
+0%{
+    background-color: plum;
+        top: 0px;
+        left: 0px;
+}
+
+20%{
+    background-color: blue;
+        top: 10px;
+        left: 20px;
+}
+
+30%{
+    background-color: red;
+        top: 20px;
+        left: 40px;
+}
+
+60%{
+    background-color: brown;
+        top: 40px;
+        left: 200px;
+}
+
+100%{
+    background-color: yellow;
+        top: 80px;
+        left: 300px;
+}
+
+}*/
+
+@keyframes myanimation{
+0%{
+    background-color: plum;
+        top: 10px;
+        left: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 20%;
+}
+
+20%{
+    background-color: red;
+        top: 30px;
+        left: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 40%;
+}
+
+40%{
+    background-color: green;
+        top: 40px;
+        left: 50px;
+        width: 200px;
+        height: 200px;
+        border-radius: 60%;
+}
+
+60%{
+    background-color: yellow;
+        top: 50px;
+        left: 70px;
+        width: 200px;
+        height: 200px;
+        border-radius: 80%;
+}
+
+80%{
+    background-color: pink;
+        top: 60px;
+        left: 90px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+}
